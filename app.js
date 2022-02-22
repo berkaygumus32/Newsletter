@@ -21,7 +21,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 // Get method
 app.get("/", (req, res) => {
-    res.sendFile(__dirname + "/signup.html");
+    res.sendFile(__dirname + "/index.html");
     
 });
 
